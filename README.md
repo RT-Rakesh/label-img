@@ -16,7 +16,7 @@ Updated to work with DICOMs.
 3. Run the following
     ```text
     conda env create -f environment.yml
-    conda activate label-img
+    source activate label-img
     make qt4py2
     python labelImg.py
     ```
